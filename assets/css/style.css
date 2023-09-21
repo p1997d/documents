@@ -1,0 +1,115 @@
+html {
+  background: #f8f9fa;
+}
+.file {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px;
+  border-bottom: 1px #c8c9ca solid;
+  padding: 5px 0;
+}
+.document {
+  background: #f8f9fa;
+}
+#page {
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  margin: 250px auto;
+  z-index: 5;
+}
+.documentText {
+  background: #fff;
+  width: 210mm;
+  min-height: 297mm;
+  padding: 2cm 1cm 2cm 2cm;
+  outline: none;
+  margin: 30px auto;
+}
+.documentText img {
+  width: 300px;
+}
+.button {
+  min-width: 23px;
+}
+#saved {
+  position: absolute;
+  color: #fff;
+  background: rgba(0,0,0,0.5);
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  transition: 0.5s;
+  z-index: 15;
+}
+.buttons{
+  display: flex;
+  padding: 10px;
+  border-top: #c8c9ca solid 1px;
+}
+.buttons div{
+  padding: 0 5px;
+  border-left: 1px solid #808080;
+}
+.progress{
+  position: absolute;
+  margin: 0;
+}
+.editor {
+  min-height: 150px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 2px #ddd;
+  background: #fff;
+}
+ul {
+  list-style-type: disc!important;
+  padding-left: 40px!important;
+}
+ul > li {
+  list-style-type: disc!important;
+}
+table tr td{
+  border: 1px solid #000;
+}
+#insertTable {
+  position: absolute;
+  width: auto;
+  background: #fff;
+  z-index: 10;
+  margin-left: 50px;
+}
+#insertTable tr td {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+}
+#insertTable tr td button {
+  width: 15px;
+  height: 15px;
+  padding: 0;
+}
+.header{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 10;
+}
+.head{
+  display:flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  border-bottom: 1px #c8c9ca solid;
+}
+.cursor{
+  position:absolute;
+}
+.loginForm{
+  position: absolute;
+  width: 500px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
